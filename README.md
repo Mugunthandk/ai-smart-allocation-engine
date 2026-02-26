@@ -1,18 +1,52 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Smart Allocation Engine
 
-# Run and deploy your AI Studio app
+AI-Based Smart Allocation Engine for PM Internship Scheme.
 
-This contains everything you need to run your app locally.
+This system automatically matches students with internships
+based on:
+
+- Skills
+- CGPA
+- Preferences
+- Matching score
+
+## Features
+
+- Student Registration
+- Internship Management
+- AI Matching Engine
+- Smart Allocation System
+- Ranking System
+
+## Technologies Used
+
+Frontend:
+- React
+- TypeScript
+
+Backend:
+- Node.js
+
+Database:
+- SQLite
+
+AI:
+- Gemini API
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+Install dependencies:
 
+npm install
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Start backend:
+
+npx tsx server.ts
+
+Start frontend:
+
+npm run dev
+
+Open browser:
+
+http://localhost:5173
