@@ -1,389 +1,194 @@
 ---
 
-# 🏗️ System Architecture
-
-```text
-                          🌐 Web Application
-                                  │
-                                  ▼
-                     ⚛️ React + TypeScript Frontend
-                                  │
-     ┌────────────────────────────┼────────────────────────────┐
-     ▼                            ▼                            ▼
-👨‍🎓 Student Portal         🏢 Company Portal         👨‍💼 Admin Portal
-     │                            │                            │
-     └────────────────────────────┼────────────────────────────┘
-                                  ▼
-                    🚀 Express.js REST API Gateway
-                                  │
-        ┌──────────────┬───────────────┬──────────────┐
-        ▼              ▼               ▼              ▼
-   🔐 Auth        🤖 AI Engine     📊 Analytics   🔔 Notifications
-        │              │               │              │
-        └──────────────┴───────────────┴──────────────┘
-                                  ▼
-                           🗄 SQLite Database
-                                  │
-                                  ▼
-                         🧠 Gemini AI Integration
-```
-
----
-
-# ✨ Key Highlights
+# ✨ Why IntelliMatch AI?
 
 <div align="center">
 
-| 🚀 Feature | 💡 Description |
-|------------|----------------|
-| 🤖 AI Resume Matching | Intelligent internship recommendations |
-| 📊 Smart Dashboard | Live analytics & placement insights |
-| ⚡ Auto Allocation | Instant candidate ranking |
-| 📄 Resume Analyzer | Skill & experience extraction |
-| 🔔 Smart Notifications | Interview & application updates |
-| 📈 Performance Reports | Placement analytics |
-| 🔒 Secure Authentication | JWT & Role-Based Access |
-| ☁ Cloud Ready | Deploy anywhere |
+| 🤖 AI Powered | ⚡ Fast | 📊 Analytics | 🔒 Secure |
+|:-------------:|:------:|:------------:|:---------:|
+| Intelligent Resume Matching | Automated Allocation | Real-Time Dashboard | JWT Authentication |
+| Skill-Based Recommendations | Smart Candidate Ranking | Placement Insights | Role-Based Access |
+| ATS Resume Analysis | Workflow Automation | Performance Reports | Protected APIs |
 
 </div>
 
 ---
 
-# ⚙ Technology Stack
+# 🚀 Core Features
 
-<div align="center">
-
-| Category | Technologies |
-|----------|--------------|
-| 🎨 Frontend | React • TypeScript • Tailwind CSS • Vite |
-| ⚙ Backend | Node.js • Express.js |
-| 🗄 Database | SQLite |
-| 🤖 Artificial Intelligence | Gemini AI |
-| 🔐 Authentication | JWT • bcrypt |
-| 📊 Charts | Chart.js |
-| 📡 APIs | REST API |
-| ☁ Deployment | Render • Vercel |
-| 🛠 Version Control | Git • GitHub |
-
-</div>
+- 🤖 AI-Powered Internship Recommendation
+- 📄 Intelligent Resume Parsing
+- 🎯 Skill-Based Candidate Matching
+- 📊 Interactive Analytics Dashboard
+- 🏢 Company Management Portal
+- 👨‍🎓 Student Dashboard
+- 👨‍💼 Admin Control Panel
+- 📧 Email Notifications
+- 📅 Interview Scheduling
+- 📈 Placement Reports
+- 🔐 Secure Authentication
+- ☁️ Cloud Deployment Ready
 
 ---
 
-# 🎯 Platform Workflow
+# 💼 Platform Overview
+
+| 👨‍🎓 Student | 🏢 Company | 👨‍💼 Admin |
+|--------------|-----------|-----------|
+| Upload Resume | Post Internships | Manage Users |
+| AI Recommendations | Review Candidates | Monitor Platform |
+| Apply Online | Shortlist Students | Generate Reports |
+| Track Applications | Schedule Interviews | AI Allocation |
+
+---
+
+# 🤖 AI Matching Process
 
 ```text
-👨‍🎓 Student Registration
-            │
-            ▼
-📝 Complete Profile
-            │
-            ▼
-📄 Upload Resume
-            │
-            ▼
-🤖 AI Resume Analysis
-            │
-            ▼
-🧠 Skill Extraction
-            │
-            ▼
+📄 Resume Upload
+      │
+      ▼
+🧠 AI Resume Analysis
+      │
+      ▼
+💻 Skill Extraction
+      │
+      ▼
+📊 Candidate Scoring
+      │
+      ▼
 🎯 Internship Recommendation
-            │
-            ▼
-📨 Submit Application
-            │
-            ▼
-🏢 Company Review
-            │
-            ▼
-📅 Interview Scheduling
-            │
-            ▼
-🏆 Final Selection
+      │
+      ▼
+🏆 Smart Ranking
+      │
+      ▼
+✅ Final Allocation
 ```
-
----
-
-# 👥 User Roles
-
-## 👨‍🎓 Student
-
-- Register & Login
-- Build Professional Profile
-- Upload Resume
-- View AI Recommendations
-- Apply for Internships
-- Track Application Status
-
----
-
-## 🏢 Company
-
-- Create Internship Opportunities
-- Search Candidates
-- View AI Ranked Students
-- Shortlist Applicants
-- Schedule Interviews
-- Publish Results
-
----
-
-## 👨‍💼 Administrator
-
-- Manage Users
-- Monitor Platform
-- Run AI Allocation
-- Manage Companies
-- Generate Reports
-- Platform Configuration
-
----
-
-# 🤖 AI Features
-
-| AI Capability | Description |
-|--------------|-------------|
-| 📄 Resume Parsing | Extract structured resume information |
-| 💻 Skill Detection | Identify technical & soft skills |
-| 🎯 AI Recommendation | Match students with internships |
-| 📈 Candidate Ranking | Intelligent scoring algorithm |
-| 📚 Certification Analysis | Evaluate certifications |
-| 🧠 ATS Prediction | Resume optimization insights |
-| 🔍 Smart Filtering | AI-powered search |
-| 📊 AI Score | Overall candidate suitability |
 
 ---
 
 # 📊 Dashboard Features
 
-✅ Student Analytics
+📈 Placement Analytics
 
-✅ Company Analytics
+📄 Resume Statistics
 
-✅ Placement Reports
+🏢 Company Insights
 
-✅ Internship Statistics
+🎯 AI Match Score
 
-✅ AI Recommendation Insights
+📊 Student Performance
 
-✅ Interview Progress
+📅 Interview Progress
 
-✅ Skill Distribution
+💼 Internship Reports
 
-✅ Application Trends
-
----
-
-# 🔌 REST API Modules
-
-| Endpoint | Function |
-|----------|----------|
-| POST /auth/login | User Authentication |
-| POST /auth/register | New User Registration |
-| GET /students | Fetch Student Data |
-| GET /companies | Fetch Companies |
-| POST /applications | Internship Application |
-| GET /dashboard | Dashboard Statistics |
-| POST /ai/match | AI Recommendation |
-| GET /analytics | Reports & Insights |
+🔔 Real-Time Notifications
 
 ---
 
-# 📂 Project Structure
-
-```text
-IntelliMatch-AI/
-│
-├── client/
-│   ├── src/
-│   ├── assets/
-│   ├── pages/
-│   ├── components/
-│   ├── hooks/
-│   ├── context/
-│   └── utils/
-│
-├── server/
-│   ├── controllers/
-│   ├── routes/
-│   ├── middleware/
-│   ├── models/
-│   ├── services/
-│   ├── config/
-│   ├── database/
-│   └── ai/
-│
-├── docs/
-├── public/
-├── README.md
-└── package.json
-```
-
----
-
-# 📈 Performance Metrics
-
-```text
-⚡ API Response Time      < 200 ms
-🤖 AI Match Accuracy      92%
-📱 Mobile Responsive      100%
-🔒 Secure Authentication  JWT
-☁ Cloud Deployment        Ready
-📊 Dashboard Refresh      Real-Time
-🧠 Recommendation Engine  AI Powered
-🚀 Platform Availability  24/7
-```
-
----
-
-# 🛡 Security Standards
-
-- 🔐 JWT Authentication
-- 🔑 Password Hashing (bcrypt)
-- 🛡 Protected REST APIs
-- 🚫 SQL Injection Protection
-- 🧩 Input Validation
-- 🔒 Environment Variables
-- 👥 Role-Based Authorization
-- ⚡ Secure Middleware
-
----
-
-# 🌍 Real-World Applications
-
-🎓 Universities
-
-🏫 Engineering Colleges
-
-🏢 Campus Placement Cells
-
-💼 Internship Programs
-
-🤝 Corporate Recruitment
-
-🌐 Talent Acquisition Platforms
-
-🏛 Government Employment Schemes
-
-🤖 AI Hiring Platforms
-
----
-
-# 🚀 Future Roadmap
-
-```text
-✅ Student Portal
-        │
-        ▼
-✅ Company Portal
-        │
-        ▼
-✅ AI Internship Matching
-        │
-        ▼
-🚧 Resume Analyzer
-        │
-        ▼
-🚧 ATS Resume Scoring
-        │
-        ▼
-🚧 Interview Scheduler
-        │
-        ▼
-📅 Recruiter Dashboard
-        │
-        ▼
-📅 Mobile Application
-        │
-        ▼
-📅 AI Career Assistant
-        │
-        ▼
-🌟 Global Recruitment Platform
-```
-
----
-
-# 💼 Skills Demonstrated
-
-✔ Full Stack Development
-
-✔ Artificial Intelligence
-
-✔ Recommendation Systems
-
-✔ REST API Development
-
-✔ Authentication & Authorization
-
-✔ Dashboard Development
-
-✔ Data Visualization
-
-✔ Responsive UI Design
-
-✔ Cloud Deployment
-
-✔ Scalable Software Architecture
-
----
-
-# 🌟 Why This Project Stands Out
+# 🏆 Why This Project Stands Out
 
 ✅ Enterprise-Level Architecture
 
-✅ AI-Powered Recommendation Engine
+✅ AI-Based Recommendation Engine
 
 ✅ Modern Dashboard UI
+
+✅ Scalable Full Stack Design
+
+✅ Secure Authentication
 
 ✅ Production-Ready Backend
 
 ✅ Clean & Modular Codebase
 
-✅ Secure Authentication
+✅ Responsive User Experience
 
-✅ Scalable Design
-
-✅ Real Business Problem Solution
-
-✅ Portfolio-Ready Project
-
-✅ Recruiter Friendly
+✅ Real-World Business Solution
 
 ---
 
-# 🤝 Contributing
+# 🌍 Real World Applications
 
-```bash
-# Fork the repository
+🎓 Universities
 
-# Clone your fork
-git clone https://github.com/your-username/IntelliMatch-AI.git
+🏫 Engineering Colleges
 
-# Create a new branch
-git checkout -b feature-name
+🏢 Campus Recruitment
 
-# Commit changes
-git commit -m "Add amazing feature"
+💼 Internship Programs
 
-# Push branch
-git push origin feature-name
+🤝 Corporate Hiring
 
-# Open a Pull Request 🚀
-```
+🌐 Talent Acquisition
+
+🏛 Government Schemes
+
+🤖 AI Recruitment Platforms
 
 ---
 
-# ⭐ Support the Project
+# 📈 Development Status
 
-If you found **IntelliMatch AI** useful,
+| Module | Progress |
+|---------|:--------:|
+| 👨‍🎓 Student Portal | 🟢 100% |
+| 🏢 Company Portal | 🟢 100% |
+| 👨‍💼 Admin Dashboard | 🟢 95% |
+| 🤖 AI Recommendation | 🟡 85% |
+| 📄 Resume Analyzer | 🟡 80% |
+| 📊 Analytics | 🟢 90% |
+| 📅 Interview Module | 🟡 70% |
+| 📱 Mobile Support | 🔵 Planned |
 
-⭐ Star this repository
+---
 
-🍴 Fork the project
+# ⭐ Project Highlights
 
-🤝 Contribute new features
+<div align="center">
 
-📢 Share it with others
+🚀 **AI Powered** • 📊 **Analytics Dashboard** • 🔐 **Secure Authentication** • ⚡ **Fast Performance** • ☁️ **Cloud Ready** • 📱 **Responsive Design**
 
-💙 Let's revolutionize campus recruitment with Artificial Intelligence.
+</div>
+
+---
+
+# ❤️ Built With
+
+<div align="center">
+
+⚛️ React &nbsp; • &nbsp;
+🚀 Node.js &nbsp; • &nbsp;
+🔥 Express.js &nbsp; • &nbsp;
+🗄 SQLite &nbsp; • &nbsp;
+🤖 Gemini AI &nbsp; • &nbsp;
+🎨 Tailwind CSS
+
+</div>
+
+---
+
+# 🚀 Future Scope
+
+- 🤖 AI Career Assistant
+- 📱 Mobile Application
+- 🌍 Multi-University Support
+- 📧 Smart Email Automation
+- 📅 AI Interview Scheduler
+- 🛰 Cloud AI Infrastructure
+- 🌐 Multi-Language Support
+- 📊 Predictive Hiring Analytics
+
+---
+
+<div align="center">
+
+## 🌟 IntelliMatch AI
+
+### Connecting Students with Opportunities Through Artificial Intelligence
+
+⭐ **Star • Fork • Contribute • Build the Future**
+
+</div>
