@@ -2,15 +2,65 @@
 
 ### AI-Powered Internship, Placement & Career Intelligence Platform
 
-> **Discover. Match. Prepare. Get Hired.**
+<p align="center">
 
-IntelliMatch AI is an intelligent **AI-powered recruitment and career development platform** designed to connect **students, recruiters, placement officers, colleges, and companies** through automated talent matching and career intelligence.
+**Discover → Match → Prepare → Improve → Get Hired**
 
-The platform analyzes resumes, skills, academic profiles, job requirements, coding performance, interview performance, and career goals to generate **personalized job recommendations, skill-gap insights, candidate rankings, interview preparation, and career roadmaps**.
+IntelliMatch AI is an intelligent career and recruitment platform that connects **students, recruiters, placement officers, colleges, and companies** through AI-powered talent matching and career intelligence.
+
+</p>
+
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Powered-blueviolet?style=for-the-badge)
+![Career](https://img.shields.io/badge/Career-Intelligence-blue?style=for-the-badge)
+![Recruitment](https://img.shields.io/badge/Recruitment-Platform-orange?style=for-the-badge)
+
+</p>
 
 ---
 
-# 🚀 Platform Capabilities
+# 🚀 Overview
+
+Traditional career platforms usually focus on job listings and applications.
+
+IntelliMatch AI adds an intelligence layer that analyzes:
+
+* 📄 Resumes
+* 🧠 Technical skills
+* 🎓 Academic profiles
+* 💼 Experience
+* 🛠️ Projects
+* 📜 Certifications
+* 💻 Coding performance
+* 🎤 Interview performance
+* 🎯 Career goals
+* 🏢 Job requirements
+* 📍 Location preferences
+* 💰 Salary preferences
+
+The platform transforms this data into:
+
+```text
+Resume Intelligence
+        ↓
+Skill Intelligence
+        ↓
+Job Intelligence
+        ↓
+Career Intelligence
+        ↓
+Interview Intelligence
+        ↓
+Recruitment Intelligence
+        ↓
+Placement Intelligence
+```
+
+---
+
+# ✨ Core Features
 
 ## 🎓 Student Intelligence
 
@@ -22,18 +72,16 @@ The platform analyzes resumes, skills, academic profiles, job requirements, codi
 * Certification management
 * Achievement tracking
 * Resume management
-* GitHub profile integration
-* LinkedIn profile integration
-* Coding profile integration
+* GitHub integration
+* LinkedIn integration
+* Coding-profile integration
 * Career preference tracking
 
 ---
 
 # 📄 AI Resume Intelligence
 
-IntelliMatch AI automatically analyzes uploaded resumes using NLP and AI.
-
-### Resume Pipeline
+IntelliMatch analyzes resumes using document processing, NLP, entity extraction, skill extraction, and ATS analysis. The source defines the resume pipeline from upload through the intelligence report.
 
 ```text
 Resume Upload
@@ -59,41 +107,41 @@ ATS Evaluation
 Resume Intelligence Report
 ```
 
-### AI Resume Analysis
+### Resume Analysis
 
 * Resume parsing
-* Contact information extraction
+* Contact extraction
 * Education extraction
 * Experience extraction
 * Technical skill extraction
-* Soft skill extraction
+* Soft-skill extraction
 * Project extraction
 * Certification extraction
 * Keyword analysis
-* Resume structure analysis
+* Structure analysis
 * Grammar analysis
 * ATS compatibility analysis
 
 ---
 
-# 📊 Advanced ATS Scoring
+# 📊 Advanced ATS Intelligence
 
-Instead of providing only one score, IntelliMatch generates a detailed ATS report.
+Instead of showing only one resume score, IntelliMatch can provide a detailed breakdown.
 
 ```text
-ATS SCORE
-━━━━━━━━━━━━━━━━━━━━━━
-Overall             87/100
-
-Keyword Match       92%
-Technical Skills    89%
-Experience          84%
-Projects            91%
-Education           95%
-Formatting          82%
-Readability         88%
-Job Relevance       90%
-━━━━━━━━━━━━━━━━━━━━━━
+╔════════════════════════════════════╗
+║         ATS INTELLIGENCE           ║
+╠════════════════════════════════════╣
+║ Overall Score        87 / 100      ║
+║ Keyword Match       92%            ║
+║ Technical Skills    89%            ║
+║ Experience          84%            ║
+║ Projects            91%            ║
+║ Education           95%            ║
+║ Formatting          82%            ║
+║ Readability         88%            ║
+║ Job Relevance       90%            ║
+╚════════════════════════════════════╝
 ```
 
 ### AI Recommendations
@@ -101,40 +149,40 @@ Job Relevance       90%
 ```text
 ⚠ Missing Skills
 
-Java
-Docker
-REST APIs
+• Java
+• Docker
+• REST APIs
 
 ⚠ Missing Keywords
 
-Microservices
-CI/CD
-Cloud Deployment
+• Microservices
+• CI/CD
+• Cloud Deployment
 
 ✓ Strong Areas
 
-React
-Node.js
-MongoDB
-Python
+• React
+• Node.js
+• MongoDB
+• Python
 ```
 
 ---
 
-# 🧠 AI Skill Intelligence
+# 🧠 Skill Intelligence Engine
 
-IntelliMatch builds a dynamic skill graph for every student.
+IntelliMatch builds a dynamic representation of a student's skills.
 
 ```text
-                    Student
-                       │
-          ┌────────────┼────────────┐
-          ↓            ↓            ↓
-      Frontend      Backend        AI/ML
-          │            │            │
-       React        Node.js       Python
-       TypeScript   Express       TensorFlow
-       Tailwind     MongoDB       Scikit-learn
+                         STUDENT
+                            │
+             ┌──────────────┼──────────────┐
+             ↓              ↓              ↓
+        FRONTEND         BACKEND         AI / ML
+             │              │              │
+          React           Node.js        Python
+        TypeScript        Express       TensorFlow
+         Tailwind         MongoDB       Scikit-learn
 ```
 
 ### Skill Intelligence
@@ -144,17 +192,17 @@ IntelliMatch builds a dynamic skill graph for every student.
 * Skill classification
 * Skill proficiency estimation
 * Skill verification
-* Skill demand analysis
-* Skill trend analysis
+* Skill-demand analysis
+* Skill-trend analysis
 * Skill relationship mapping
 
 ---
 
 # 🎯 Intelligent Job Matching
 
-IntelliMatch doesn't rely only on keyword matching.
+IntelliMatch goes beyond basic keyword matching.
 
-The AI matching engine considers:
+The matching engine can consider:
 
 ```text
 Student Profile
@@ -177,37 +225,38 @@ Job Requirements
       +
 Company Preference
       ↓
-AI Matching Engine
-      ↓
-Match Score
+┌─────────────────────────┐
+│   AI MATCHING ENGINE    │
+└────────────┬────────────┘
+             ↓
+        Match Score
 ```
 
 ### Example
 
 ```text
-JOB MATCH
-
-Software Engineer Intern
-━━━━━━━━━━━━━━━━━━━━━━
-
-Overall Match       94%
-
-Skills              96%
-Projects            92%
-Education           100%
-Experience          84%
-Career Goal         95%
-Location            90%
-
-Recommendation:
-🔥 Highly Recommended
+╔════════════════════════════════════╗
+║          JOB MATCH                 ║
+╠════════════════════════════════════╣
+║ Software Engineer Intern           ║
+║                                    ║
+║ Overall Match       94%            ║
+║ Skills              96%            ║
+║ Projects            92%            ║
+║ Education           100%           ║
+║ Experience          84%            ║
+║ Career Goal         95%            ║
+║ Location            90%            ║
+║                                    ║
+║ 🔥 Highly Recommended              ║
+╚════════════════════════════════════╝
 ```
 
 ---
 
 # 🏆 AI Candidate Ranking
 
-Recruiters can automatically rank candidates based on job-specific requirements.
+Recruiters can rank candidates against role-specific requirements.
 
 ```text
 Job Requirement
@@ -229,7 +278,7 @@ Interview Score
 Final Ranking
 ```
 
-### Candidate Ranking
+### Example
 
 ```text
 🥇 Candidate A     94.8%
@@ -243,7 +292,23 @@ Final Ranking
 
 # 📈 Skill Gap Intelligence
 
-IntelliMatch identifies the difference between a student's current skills and the skills required for their target role.
+The platform identifies the difference between a student's current profile and the requirements of a target role.
+
+```text
+Target Role
+     ↓
+Required Skills
+     ↓
+Current Student Skills
+     ↓
+Skill Comparison
+     ↓
+Gap Detection
+     ↓
+Priority Calculation
+     ↓
+Learning Recommendations
+```
 
 ### Example
 
@@ -266,27 +331,11 @@ Missing Skills
 ⚠ CI/CD
 ```
 
-### Gap Analysis
-
-```text
-Current Skill Level
-        ↓
-Target Job Requirements
-        ↓
-Skill Comparison
-        ↓
-Gap Detection
-        ↓
-Priority Calculation
-        ↓
-Learning Recommendations
-```
-
 ---
 
 # 🧭 Personalized Career Roadmap
 
-AI generates a customized learning roadmap based on the student's target role.
+AI generates a personalized development plan based on the student's target role.
 
 ```text
 Month 1
@@ -326,40 +375,44 @@ System Design + Interviews
 
 # 🤖 AI Career Copilot
 
-Students can interact with an AI career assistant.
-
-### Example
+Students can interact with an AI career assistant for personalized guidance.
 
 ```text
 Student:
 Why am I not getting shortlisted?
 
-AI:
-Your resume matches 71% of the target job requirements.
+              ↓
 
-Main gaps:
+AI Career Analysis
 
+              ↓
+
+Resume Match: 71%
+
+Main Skill Gaps:
 1. AWS
 2. Docker
 3. System Design
 
-Your projects are strong, but your resume
-does not clearly demonstrate backend scalability.
+              ↓
 
-Recommended Action:
+Recommended Action
 
-Build one production-grade backend project
-using Node.js + Docker + AWS.
+Build a production-grade backend
+project using Node.js + Docker + AWS.
 
-Estimated improvement:
-71% → 85%+ match
+              ↓
+
+Expected Improvement
+
+71% → 85%+
 ```
 
 ---
 
 # 💼 Internship Intelligence
 
-IntelliMatch continuously analyzes internship opportunities.
+IntelliMatch can help students discover and prioritize internship opportunities.
 
 ### Features
 
@@ -372,7 +425,7 @@ IntelliMatch continuously analyzes internship opportunities.
 * Internship ranking
 * Personalized opportunity feed
 
-### Smart Eligibility Engine
+### Eligibility Engine
 
 ```text
 Student Profile
@@ -381,19 +434,22 @@ Job Requirements
       ↓
 Eligibility Analysis
       ↓
-┌───────────────┐
-│ Eligible?     │
-└───────┬───────┘
-    YES │ NO
-        ↓
+┌─────────────────┐
+│    Eligible?    │
+└───────┬─────────┘
+        │
+   ┌────┴────┐
+   ↓         ↓
+  YES        NO
+   ↓
 Recommendation
 ```
 
 ---
 
-# 🏢 Company Recruitment Intelligence
+# 🏢 Recruiter Intelligence
 
-Recruiters receive an AI-powered recruitment dashboard.
+Recruiters receive an AI-powered recruitment workspace.
 
 ### Features
 
@@ -432,11 +488,9 @@ Offer
 Joined
 ```
 
-Recruiters can monitor candidates throughout the entire hiring lifecycle.
-
 ---
 
-# 🤖 AI Interview Assistant
+# 🎤 AI Interview Assistant
 
 IntelliMatch provides AI-powered interview preparation.
 
@@ -449,7 +503,7 @@ IntelliMatch provides AI-powered interview preparation.
 * System design interview
 * Role-specific interview
 
-### AI Evaluation
+### Evaluation Pipeline
 
 ```text
 Candidate Answer
@@ -467,39 +521,38 @@ Relevance
 AI Score
 ```
 
-Example:
+### Example
 
 ```text
-Interview Score
-━━━━━━━━━━━━━━━━━━━━━━
-
-Technical        88%
-Communication    82%
-Problem Solving  91%
-Confidence       79%
-Relevance        94%
-
-Overall Score    86%
+╔════════════════════════════════════╗
+║       INTERVIEW EVALUATION         ║
+╠════════════════════════════════════╣
+║ Technical          88%             ║
+║ Communication      82%             ║
+║ Problem Solving    91%             ║
+║ Confidence         79%             ║
+║ Relevance          94%             ║
+║                                    ║
+║ Overall Score      86%             ║
+╚════════════════════════════════════╝
 ```
 
 ---
 
 # 💻 Coding Intelligence
 
-IntelliMatch can integrate coding assessments into the placement workflow.
+The platform can integrate coding assessments into placement workflows.
 
-### Features
+### Capabilities
 
 * Coding challenges
 * MCQ assessments
 * Aptitude tests
 * DSA evaluation
-* Code quality analysis
+* Code-quality analysis
 * Test-case evaluation
 * Performance analysis
 * Difficulty-based assessment
-
-### Coding Pipeline
 
 ```text
 Problem
@@ -523,9 +576,7 @@ AI Evaluation
 
 # 🏫 Placement Officer Dashboard
 
-Colleges can monitor placement activities from one platform.
-
-### Analytics
+Colleges can monitor placement activities from a centralized dashboard.
 
 ```text
 Total Students       1,240
@@ -546,93 +597,90 @@ Placement Rate        24.5%
 * Salary analytics
 * Offer tracking
 * Placement trends
-* Unplaced student identification
-* Skill gap reports
+* Unplaced-student identification
+* Skill-gap reports
 
 ---
 
-# 📊 Student Readiness Score
+# 📊 Student Placement Readiness
 
-Every student receives a dynamic placement-readiness score.
+Each student can receive a dynamic readiness score.
 
 ```text
-PLACEMENT READINESS
-━━━━━━━━━━━━━━━━━━━━━━
-
-Technical Skills     88%
-DSA                  76%
-Projects             92%
-Resume               90%
-Communication        81%
-Aptitude             84%
-Interview            79%
-GitHub                87%
-━━━━━━━━━━━━━━━━━━━━━━
-
-Overall Readiness     85%
+╔════════════════════════════════════╗
+║      PLACEMENT READINESS           ║
+╠════════════════════════════════════╣
+║ Technical Skills     88%           ║
+║ DSA                  76%           ║
+║ Projects             92%           ║
+║ Resume               90%           ║
+║ Communication        81%           ║
+║ Aptitude             84%           ║
+║ Interview            79%           ║
+║ GitHub               87%           ║
+║                                    ║
+║ Overall Readiness     85%          ║
+╚════════════════════════════════════╝
 ```
 
-The score changes as students improve their skills, projects, assessments, and interview performance.
+The readiness score can change as the student improves skills, projects, assessments, and interview performance.
 
 ---
 
 # 🔔 Intelligent Notifications
 
-AI-powered notifications help students avoid missed opportunities.
+AI-driven notifications can highlight:
 
-### Notifications
-
-* New matching internship
-* Job deadline
-* Interview reminder
-* Skill gap alert
-* Resume improvement
-* Assessment deadline
-* Career milestone
-* Placement opportunity
+* New matching internships
+* Job deadlines
+* Interview reminders
+* Skill-gap alerts
+* Resume improvements
+* Assessment deadlines
+* Career milestones
+* Placement opportunities
 
 ---
 
 # 🧠 Advanced AI Architecture
 
 ```text
-                    ┌──────────────────────┐
-                    │    Student Portal    │
-                    └──────────┬───────────┘
-                               │
-                    ┌──────────▼───────────┐
-                    │    API Gateway       │
-                    └──────────┬───────────┘
-                               │
-          ┌────────────────────┼────────────────────┐
-          ↓                    ↓                    ↓
-   ┌──────────────┐    ┌──────────────┐    ┌──────────────┐
-   │ Resume AI    │    │ Matching AI  │    │ Interview AI │
-   └──────┬───────┘    └──────┬───────┘    └──────┬───────┘
-          │                    │                    │
-          └────────────────────┼────────────────────┘
-                               ↓
-                    ┌──────────────────────┐
-                    │  AI Decision Engine  │
-                    └──────────┬───────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              ↓                ↓                ↓
-        Skill Engine     Ranking Engine    Recommendation
-              │                │                │
-              └────────────────┼────────────────┘
-                               ↓
-                    ┌──────────────────────┐
-                    │ Intelligence Layer   │
-                    └──────────┬───────────┘
-                               ↓
-                    Student / Recruiter /
-                    Placement Officer
+                         ┌─────────────────────┐
+                         │   Student Portal    │
+                         └──────────┬──────────┘
+                                    ↓
+                         ┌─────────────────────┐
+                         │     API Gateway     │
+                         └──────────┬──────────┘
+                                    │
+              ┌─────────────────────┼─────────────────────┐
+              ↓                     ↓                     ↓
+       ┌──────────────┐      ┌──────────────┐      ┌──────────────┐
+       │  Resume AI   │      │ Matching AI  │      │ Interview AI │
+       └──────┬───────┘      └──────┬───────┘      └──────┬───────┘
+              │                     │                     │
+              └─────────────────────┼─────────────────────┘
+                                    ↓
+                         ┌─────────────────────┐
+                         │ AI Decision Engine  │
+                         └──────────┬──────────┘
+                                    ↓
+             ┌──────────────────────┼──────────────────────┐
+             ↓                      ↓                      ↓
+      Skill Engine          Ranking Engine       Recommendation
+             │                      │                      │
+             └──────────────────────┼──────────────────────┘
+                                    ↓
+                         ┌─────────────────────┐
+                         │ Intelligence Layer │
+                         └──────────┬──────────┘
+                                    ↓
+                  Student / Recruiter / Placement Officer
 ```
 
 ---
 
-# 🔄 Complete AI Workflow
+# 🔄 End-to-End AI Workflow
 
 ```text
 Student Profile
@@ -680,30 +728,31 @@ Offer
 
 ```text
 User
- ├── Student
- │    ├── Resume
- │    ├── Skills
- │    ├── Projects
- │    ├── Certifications
- │    ├── Assessments
- │    ├── Interviews
- │    └── Applications
- │
- ├── Recruiter
- │    ├── Company
- │    ├── Jobs
- │    └── Candidates
- │
- └── Placement Officer
-      ├── Students
-      ├── Companies
-      ├── Drives
-      └── Analytics
+│
+├── Student
+│   ├── Resume
+│   ├── Skills
+│   ├── Projects
+│   ├── Certifications
+│   ├── Assessments
+│   ├── Interviews
+│   └── Applications
+│
+├── Recruiter
+│   ├── Company
+│   ├── Jobs
+│   └── Candidates
+│
+└── Placement Officer
+    ├── Students
+    ├── Companies
+    ├── Drives
+    └── Analytics
 ```
 
 ---
 
-# 🧩 AI Input Data
+# 📥 AI Input Data
 
 ```text
 Resume
@@ -726,7 +775,7 @@ Experience
 
 ---
 
-# 📤 AI Output
+# 📤 AI Outputs
 
 ```text
 ATS Score
@@ -810,7 +859,7 @@ Redis
 Vector Database
 ```
 
-## Infrastructure
+## Cloud & DevOps
 
 ```text
 Docker
@@ -823,19 +872,70 @@ CI/CD
 
 ---
 
-# 🔐 Security
+# 📁 Recommended Repository Structure
 
-* JWT Authentication
+```text
+intellimatch-ai/
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   └── utils/
+│
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   ├── services/
+│   └── server.ts
+│
+├── ai-engine/
+│   ├── resume-parser/
+│   ├── ats-engine/
+│   ├── matching-engine/
+│   ├── skill-engine/
+│   ├── recommendation-engine/
+│   ├── interview-engine/
+│   └── models/
+│
+├── data/
+│   ├── datasets/
+│   └── embeddings/
+│
+├── docs/
+│   ├── architecture/
+│   ├── api/
+│   └── diagrams/
+│
+├── tests/
+│
+├── .env.example
+├── docker-compose.yml
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 🔐 Security Architecture
+
+The platform can use:
+
+* JWT authentication
 * OAuth 2.0
 * Role-Based Access Control
-* Password Hashing
+* Password hashing
 * Protected APIs
-* Input Validation
-* Rate Limiting
-* Secure File Upload
-* Audit Logging
-* Data Encryption
-* Secure Environment Variables
+* Input validation
+* Rate limiting
+* Secure file uploads
+* Audit logging
+* Data encryption
+* Environment variables
 
 ### Roles
 
@@ -851,9 +951,9 @@ Student
 
 ---
 
-# 📈 Advanced Analytics
+# 📈 Analytics
 
-### Student Analytics
+## Student Analytics
 
 * Skill growth
 * Learning progress
@@ -862,7 +962,7 @@ Student
 * Placement readiness
 * Job-match trends
 
-### Recruiter Analytics
+## Recruiter Analytics
 
 * Candidate quality
 * Hiring funnel
@@ -871,7 +971,7 @@ Student
 * Time-to-hire
 * Skill demand
 
-### College Analytics
+## College Analytics
 
 * Placement percentage
 * Department performance
@@ -882,72 +982,45 @@ Student
 
 ---
 
-# 🎯 AI Matching Formula
+# 🎯 AI Matching Model
 
-The matching engine can combine multiple signals:
+A multi-signal matching engine can combine:
 
 ```text
-Match Score =
-    Skill Similarity
-  + Experience Relevance
-  + Project Relevance
-  + Education Match
-  + Career Goal Match
-  + Location Match
-  + Assessment Performance
+                Skill Similarity
+                       +
+                Experience Relevance
+                       +
+                Project Relevance
+                       +
+                Education Match
+                       +
+                Career Goal Match
+                       +
+                Location Match
+                       +
+                Assessment Performance
+                       ↓
+                  MATCH SCORE
 ```
 
-The system can use **semantic similarity and weighted scoring** rather than simple keyword matching.
-
----
-
-# 🚀 Future Roadmap
-
-## Phase 1
-
-* [x] Student Profiles
-* [x] Resume Management
-* [x] Job Management
-* [x] Authentication
-* [ ] AI Resume Parser
-* [ ] ATS Scoring
-
-## Phase 2
-
-* [ ] Semantic Job Matching
-* [ ] Skill Gap Analysis
-* [ ] AI Career Roadmap
-* [ ] Internship Recommendation
-* [ ] Candidate Ranking
-
-## Phase 3
-
-* [ ] AI Interview Assistant
-* [ ] Coding Assessment
-* [ ] AI Interview Evaluation
-* [ ] Placement Analytics
-* [ ] Recruiter Intelligence
-
-## Phase 4
-
-* [ ] RAG-Based Career Copilot
-* [ ] Advanced Recommendation Engine
-* [ ] Predictive Placement Analytics
-* [ ] Skill Demand Forecasting
-* [ ] AI Recruitment Agent
-* [ ] Automated Candidate Screening
+The platform can use **semantic similarity + weighted scoring** instead of relying exclusively on exact keyword matching.
 
 ---
 
 # 🌟 What Makes IntelliMatch AI Different?
 
-Traditional placement portals mainly provide:
+### Traditional Placement Platform
 
 ```text
-Jobs → Applications → Interviews
+Jobs
+ ↓
+Applications
+ ↓
+Interviews
 ```
 
-IntelliMatch AI provides:
+### IntelliMatch AI
 
 ```text
 Student Intelligence
@@ -967,31 +1040,69 @@ Interview Intelligence
 Placement Intelligence
 ```
 
+The goal is not simply to provide another job portal.
+
+It is to create an **AI intelligence layer connecting student development with recruitment decisions**.
+
+---
+
+# 🚀 Development Roadmap
+
+## Phase 1 · Foundation
+
+* [x] Student Profiles
+* [x] Resume Management
+* [x] Job Management
+* [x] Authentication
+* [ ] AI Resume Parser
+* [ ] ATS Scoring
+
+## Phase 2 · AI Matching
+
+* [ ] Semantic Job Matching
+* [ ] Skill Gap Analysis
+* [ ] AI Career Roadmap
+* [ ] Internship Recommendation
+* [ ] Candidate Ranking
+
+## Phase 3 · Interview Intelligence
+
+* [ ] AI Interview Assistant
+* [ ] Coding Assessment
+* [ ] AI Interview Evaluation
+* [ ] Placement Analytics
+* [ ] Recruiter Intelligence
+
+## Phase 4 · Advanced AI
+
+* [ ] RAG-Based Career Copilot
+* [ ] Advanced Recommendation Engine
+* [ ] Predictive Placement Analytics
+* [ ] Skill Demand Forecasting
+* [ ] AI Recruitment Agent
+* [ ] Automated Candidate Screening
+
 ---
 
 # 🎯 Vision
 
 IntelliMatch AI aims to create a unified intelligence layer between **students and the modern recruitment ecosystem**.
 
-Instead of students asking:
+Instead of asking:
 
 > **"Which job should I apply for?"**
 
-IntelliMatch AI answers:
+IntelliMatch AI aims to answer:
 
 > **"Which opportunities match my current skills, what am I missing, how can I improve, and which career path gives me the best chance of getting hired?"**
 
-For recruiters, instead of asking:
-
-> **"Which candidates should we shortlist?"**
-
-IntelliMatch AI answers:
+For recruiters:
 
 > **"Which candidates best match this role, why do they match, and what evidence supports the recommendation?"**
 
 ---
 
-# 🌍 Impact
+# 🌍 Expected Impact
 
 IntelliMatch AI is designed to:
 
@@ -1009,20 +1120,32 @@ IntelliMatch AI is designed to:
 
 # 📌 Project Status
 
-**Status:** 🚀 Active Development
+**🚀 Active Development**
 
 IntelliMatch AI is being developed as a next-generation **AI-powered career, internship, placement, and recruitment intelligence platform**.
 
 ---
 
-## 👨‍💻 Project
+# 👨‍💻 Project
 
-**IntelliMatch AI**
+## 🤖 IntelliMatch AI
 
 > **Match Skills. Discover Opportunities. Build Careers.**
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is developed for **education, research, innovation, and career technology experimentation**.
+
+---
+
+<p align="center">
+
+## 🤖 IntelliMatch AI
+
+### Discover • Match • Prepare • Improve • Get Hired
+
+**AI-powered intelligence for the next generation of careers.**
+
+</p>
