@@ -10,10 +10,14 @@
 
 <p>
   <img src="https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AI%2FML-Advanced-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Career-Intelligence-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Talent-Intelligence-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Recruitment-AI-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-Agentic%20AI-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Predictive%20Intelligence-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Career-Career%20Intelligence-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Talent-Talent%20Intelligence-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Recruitment-AI-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Resume-Intelligence-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Assessment-AI-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Interview-AI-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-339933?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AI-Python-3776AB?style=for-the-badge" />
@@ -26,65 +30,108 @@
 
 # 🚀 What is IntelliMatch AI?
 
-**IntelliMatch AI** is an advanced AI-powered career, recruitment, assessment, placement, and talent intelligence platform.
+**IntelliMatch AI** is an advanced AI-powered **career, recruitment, assessment, placement, and talent intelligence operating system**.
 
-Instead of functioning as a traditional job portal, IntelliMatch AI creates a continuously evolving **Career Intelligence Profile** for every candidate.
+Instead of functioning as a traditional job portal, IntelliMatch creates a continuously evolving **Career Intelligence Profile** for every candidate.
 
-The platform combines:
+The platform understands:
 
-- 🤖 Agentic AI
-- 🧠 Machine Learning
-- 📄 Resume Intelligence
-- 🎯 Job Matching
-- 🧪 Skill Assessment
-- 💻 Coding Evaluation
-- 🗣️ Interview Intelligence
-- 📊 Career Analytics
-- 🔮 Career Prediction
-- 🎓 Learning Recommendations
-- 🏢 Recruitment Intelligence
-- 🏫 College Placement Intelligence
-- 🔗 Candidate-Company Matching
-- 🧩 Skill Gap Analysis
-- 📈 Career Growth Tracking
+- Who the candidate is
+- What they know
+- What they can actually do
+- What they are missing
+- Which roles fit them
+- Which companies are likely to shortlist them
+- What they should learn next
+- How interview-ready they are
+- How their career trajectory may evolve
 
-into a unified career intelligence ecosystem.
+At the same time, recruiters and colleges receive a **Talent Intelligence Layer** for discovering, evaluating, ranking, and developing candidates.
 
 ---
 
-# 🎯 Core Vision
-
-Traditional career platforms ask:
-
-> "Which jobs are available?"
-
-IntelliMatch AI asks:
-
-> **"What career is the candidate best prepared for, what skills are missing, which opportunities fit them, what should they learn next, and how can they maximize their probability of success?"**
-
-The platform continuously connects:
+# 🧠 Core Intelligence Loop
 
 ```text
-Candidate
-    ↓
-Skills
-    ↓
-Assessment
-    ↓
-Career Profile
-    ↓
-Skill Gap
-    ↓
-Learning
-    ↓
-Job Matching
-    ↓
-Interview Preparation
-    ↓
-Application
-    ↓
-Recruitment
-    ↓
-Placement
-    ↓
-Career Growth
+                         ┌──────────────────────────┐
+                         │        CANDIDATE          │
+                         │                          │
+                         │ Resume • Skills • Goals  │
+                         │ Projects • Experience    │
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       01. DISCOVER        │
+                         │                          │
+                         │ Resume • GitHub • Profile│
+                         │ Projects • Preferences   │
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       02. ASSESS          │
+                         │                          │
+                         │ Aptitude • Coding • SQL  │
+                         │ Technical • Communication│
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       03. ANALYZE         │
+                         │                          │
+                         │ Skill Graph • Strengths  │
+                         │ Weaknesses • Experience  │
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       04. PREDICT         │
+                         │                          │
+                         │ Job Fit • Interview      │
+                         │ Readiness • Career Risk  │
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       05. MATCH           │
+                         │                          │
+                         │ Candidate ↔ Role         │
+                         │ Candidate ↔ Company     │
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       06. PREPARE         │
+                         │                          │
+                         │ Personalized Learning    │
+                         │ Coding • Aptitude • HR   │
+                         │ Mock Interviews           │
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       07. CONNECT          │
+                         │                          │
+                         │ Applications • Recruiters│
+                         │ Colleges • Opportunities │
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       08. GET HIRED        │
+                         │                          │
+                         │ Shortlist → Interview    │
+                         │ Offer → Placement        │
+                         └─────────────┬────────────┘
+                                       │
+                                       ▼
+                         ┌──────────────────────────┐
+                         │       09. GROW             │
+                         │                          │
+                         │ Performance • Skills     │
+                         │ Career Progression        │
+                         └─────────────┬────────────┘
+                                       │
+                                       └──────────────►
+                                             LEARN & OPTIMIZE
